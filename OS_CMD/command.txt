@@ -1,0 +1,7 @@
+g++ utilities.cpp -shared -o utilities.dll -Wl,--out-implib,utilities.lib
+其中 -shared 告诉g++ utilities.cpp 文件需要编译成动态链接库。-Wl 表示后面的内容是ld 的参数，需要传递给 ld。 
+--out-implib,utilities.lib 表示让ld 生成一个名为 utilities.lib 的导入库。
+
+g++ segmented_Paging_virtual_memory_OS.cpp utilities.lib -o segmented_Paging_virtual_memory_OS2.exe
+
+g++ segmented_Paging_virtual_memory_OS.cpp -l utilities.dll utilities.lib -o segmented_Paging_virtual_memory_OS3.exe
