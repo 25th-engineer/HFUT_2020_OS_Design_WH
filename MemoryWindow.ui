@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MemoryWindow</class>
+ <widget class="QWidget" name="MemoryWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>780</width>
+    <height>641</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>内存-进程管理</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <widget class="QWidget" name="tab_1">
+      <attribute name="title">
+       <string>申请内存</string>
+      </attribute>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>191</width>
+         <height>551</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="minimumSize">
+             <size>
+              <width>80</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>80</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>进程名</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEdit_ps_name">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="minimumSize">
+             <size>
+              <width>80</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>80</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>进程段总数</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEdit_ps_SegNum">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0" colspan="2">
+           <widget class="QTableWidget" name="tableWidget_ps_Section">
+            <property name="minimumSize">
+             <size>
+              <width>186</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>180</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <column>
+             <property name="text">
+              <string>段大小</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item row="4" column="0" colspan="2">
+           <widget class="QPushButton" name="btnNewPS">
+            <property name="text">
+             <string>创建新进程</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="btnSegSize">
+            <property name="text">
+             <string>确认</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>回收内存</string>
+      </attribute>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>31</y>
+         <width>216</width>
+         <height>43</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="0" column="0" colspan="2">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>请输入进程号</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLineEdit" name="lineEdit_pid_2"/>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="btnRecycle">
+          <property name="text">
+           <string>执行</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>内存显示</string>
+      </attribute>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>731</width>
+         <height>561</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0" colspan="2">
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0" rowspan="2">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>内存大小</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" rowspan="2">
+           <widget class="QLineEdit" name="lineEdit_memSize"/>
+          </item>
+          <item row="0" column="2" rowspan="2">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>258</width>
+              <height>38</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>总块数</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLineEdit" name="lineEdit_tBlocks"/>
+          </item>
+          <item row="1" column="3">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>每块大小</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QLineEdit" name="lineEdit_bSize"/>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0" colspan="2">
+         <widget class="QLabel" name="label_7">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>已分配内存块详情</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="2">
+         <widget class="QTableWidget" name="tableWidget_memList">
+          <column>
+           <property name="text">
+            <string>进程名</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>进程号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>进程段号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>页号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>块号</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="5" column="0" colspan="2">
+         <widget class="QPushButton" name="btnViewMem">
+          <property name="text">
+           <string>信息查询</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0" colspan="2">
+         <widget class="QLabel" name="label_MemCount">
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:blue;}</string>
+          </property>
+          <property name="text">
+           <string>共占用</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>进程页表显示</string>
+      </attribute>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>10</y>
+         <width>351</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>进程信息</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_ps_name">
+            <property name="text">
+             <string>进程名</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_ps_id">
+            <property name="text">
+             <string>进程号</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget_sectionList">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>311</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <column>
+        <property name="text">
+         <string>段号</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>段大小</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>是否在内存</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget_pageList">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>90</y>
+         <width>411</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <column>
+        <property name="text">
+         <string>页号</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>页内偏移</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>块号</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>是否存在内存</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>12</y>
+         <width>341</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <item row="0" column="0" colspan="2">
+         <widget class="QLabel" name="label_9">
+          <property name="text">
+           <string>请输入要显示得进程号</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLineEdit" name="lineEdit_ps_pid"/>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="btnQueryPSInfo">
+          <property name="text">
+           <string>查询</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>地址转换</string>
+      </attribute>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>21</y>
+         <width>731</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0" colspan="2">
+         <widget class="QLabel" name="label_12">
+          <property name="text">
+           <string>请输入要显示得进程号</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2" rowspan="9">
+         <widget class="QTextEdit" name="textEdit_log">
+          <property name="minimumSize">
+           <size>
+            <width>500</width>
+            <height>0</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="2">
+         <widget class="QLabel" name="label_13">
+          <property name="text">
+           <string>请输入段表起始地址</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0" colspan="2">
+         <widget class="QLabel" name="label_14">
+          <property name="text">
+           <string>请输入段号</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0" colspan="2">
+         <widget class="QLabel" name="label_15">
+          <property name="text">
+           <string>请输入页号</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLineEdit" name="lineEdit_page_id"/>
+        </item>
+        <item row="7" column="1">
+         <widget class="QPushButton" name="btnPageID">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>查询</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0" colspan="2">
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>208</width>
+            <height>278</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="0" colspan="2">
+         <widget class="QLineEdit" name="lineEdit_ps_id"/>
+        </item>
+        <item row="3" column="0" colspan="2">
+         <widget class="QLineEdit" name="lineEdit_seg_sAddress"/>
+        </item>
+        <item row="5" column="0" colspan="2">
+         <widget class="QLineEdit" name="lineEdit_seg_id"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
