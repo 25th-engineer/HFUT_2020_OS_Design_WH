@@ -1,0 +1,7 @@
+[1]田卫东，李琳，刘晓平，孙晓，罗月童，周红鹃. 系统软件综合设计指导书——操作系统分册（第三版）[M]. 合肥：合肥工业大学， 2018.
+[2]汤小丹，梁红兵，哲凤屏，汤子瀛. 计算机操作系统（第四版）[M]. 西安：西安电子科技大学出版社，2014.
+[3]https://blog.csdn.net/Bob__yuan/article/details/102584606
+[4]https://www.cnblogs.com/xumaomao/p/12864406.html
+[5]https://zh.wikipedia.org/zh-hans/C%E8%AF%AD%E8%A8%80
+[6]TIOBE Programming Community Index [TIOBE编程社区指数]. 2012[2012-11-03]（英语）.
+[7]https://wuu.wikipedia.org/wiki/Qt
