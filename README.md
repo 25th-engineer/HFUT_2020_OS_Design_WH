@@ -41,7 +41,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175513657.png">
+    src="https://img-blog.csdnimg.cn/20201229092147686.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -53,7 +53,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175533253.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175513657.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -65,7 +65,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175556912.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175533253.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -77,7 +77,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175606889.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175556912.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -89,7 +89,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175613435.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175606889.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -99,10 +99,11 @@
 <br>
 
 #### GUI程序的运行情况
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175620203.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175613435.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -114,7 +115,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175629497.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175620203.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -126,7 +127,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175636545.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175629497.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -138,7 +139,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175643591.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175636545.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -150,7 +151,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175654859.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175643591.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -162,7 +163,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175724123.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175654859.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -174,7 +175,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175724139.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175724123.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -186,7 +187,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201228175756202.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175724139.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -198,7 +199,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://img-blog.csdnimg.cn/20201229090407264.PNG">
+    src="https://img-blog.csdnimg.cn/20201228175756202.PNG">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -206,6 +207,7 @@
     padding: 2px;">图 16 GUI程序查询物理地址发生缺段中断</div>
 </center>
 <br>
+
 
 ### 流程图
 <center>
@@ -270,6 +272,3 @@
 
 ## 报告
 &emsp;&emsp;[PDF版本](./document_report/系统软件综合设计报告-OS-物2-2017218007-文华.pdf)
-
-## 项目地址
-&emsp;&emsp;[项目GitHub地址](https://github.com/25thengineer/HFUT_2020_OS_Design_WH)
